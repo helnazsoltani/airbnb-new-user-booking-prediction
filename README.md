@@ -28,7 +28,7 @@
 - All of the above features are calculated based on the data in users’ web session records (sessions.csv) with respect to their first activity on website.
 
 ### Exploratory data analysis:
-- 58% of the users in the dataset did not end up booking (labeled as 'NDF'). This brought up another interesting question to answer: Are the first users book any reservation?
+- 58% of the users in the dataset did not end up booking (labeled as 'NDF'). This brought up another interesting question to answer: Does a new Airbnb user book?
 - Airbnb users tend to use Apple products more. Apple products are among the top 5 most popular devices.
 - The mean and std of 'age' are 37 and 9, respectively.
 - The null values in 'secs elapsed mean' were filled based on the observed corresponding EDA to make sure it does not affect the original statistics.
@@ -39,7 +39,7 @@
 ### Question 1: Is a new Airbnb user book any reservation?
 - To answer this, I considered 'NDF as one class and the rest as another class which make the problem of binary classification type. 
 - 7 machine learning algorithm were modeled (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, Ada Boosting, XGBoosting, and multi-layer Perceptron.
-- Based on AUC curve, Xgboosting and Gradient Boosting have highest performances.
+- Based on AUC curve, XGBoosting and Gradient Boosting have highest performances.
 - Hyperparameter tuning for these two algotithm was performed.
 - Feature importance was extracted for these two algorithms.
 
@@ -50,10 +50,10 @@
 - The evaluation metric for this problem according to Airbnb is NDCG.
 - Based on NDCG score, Logistic Regression, Xgboosting and Gradient Boosting have highest performances.
 - Hyperparameter tuning for Xgboosting was performed.
-- Feature importance was extracted for Xgboosting and Gradient Boosting.
+- Feature importance was extracted for XGBoosting and Gradient Boosting.
 
 ### Conclusions:
-- Predicting whether or not a user will book a reservation combined with the marketing strategy is beneficial for business purposes.
+- Predicting whether or not a user will book combined with the marketing strategy is beneficial for business purposes.
 - Predicting which countries are more popular for accommodation booking is beneficial for demand forecasting.
 - Airbnb can build a recommendation system based on these predictions. Suggesting the destinations which are similar to the user’s choice (in terms of climate, nature, and things-to-do)
 
