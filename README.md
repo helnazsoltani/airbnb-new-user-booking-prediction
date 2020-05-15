@@ -33,7 +33,7 @@
 - The mean and std of 'age' are 37 and 9, respectively.
 - The null values in 'secs elapsed mean' were filled based on the observed corresponding EDA to make sure it does not affect the original statistics.
 - English is the dominant language within the users and that make sense because the data were collected from the users in US.
-- Signup method is dominant by 'basic' and 'facebook'.
+- Signup method is dominated by 'basic' and 'facebook'.
 - About 45% of the users did not reveal their gender.
 
 ### Question 1: Is a new Airbnb user book any reservation?
