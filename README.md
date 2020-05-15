@@ -7,7 +7,7 @@
 - Predicting new Airbnb users' first reservation location.
 
 ### Dataset information:
-- Number of Instances: 250k
+- Number of Instances: 200k
 - Number of Attributes: 15
 - Data Set Characteristics: Multivariate classification with 12 classes
 - 12 possible outcomes of the destination country: 'US', 'FR', 'CA', 'GB', 'ES', 'IT', 'PT', 'NL','DE', 'AU', 'NDF' (no destination found), and 'other'
