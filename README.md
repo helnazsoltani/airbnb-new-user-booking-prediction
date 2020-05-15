@@ -45,7 +45,7 @@
 - Feature importance was extracted for these two algorithms.
 
 ### Question 2: Where a new Airbnb user will book reservation?
-- To answer this, I extracted 'NDF as one class and nd focused on the users that ended up booking. 
+- To answer this, I extracted 'NDF as one class and focused on the users that ended up booking. 
 - The dataset was highly imbalanced, so I used under sampling for the US observations, and then used oversampling for the rest of the target variables. However, it turns out that these techniques did not improve my models.
 - 7 machine learning algorithm were modeled (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, Ada Boosting, XGBoosting, and multi-layer Perceptron.
 - The evaluation metric for this problem according to Airbnb is NDCG.
