@@ -1,4 +1,6 @@
 # Airbnb New User Booking Prediction
+![image](https://https://www.hotelmanagement.net/own/under-european-commission-pressure-airbnb-adjusts-pricing-model-across-eu)
+
 ## Helnaz Soltani
 ### May 15th, 2020
 
