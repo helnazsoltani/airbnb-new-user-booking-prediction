@@ -53,7 +53,7 @@
 - Feature importance was extracted for Xgboosting and Gradient Boosting.
 
 ### Conclusions:
-- Predicting whether or not a user will book a reservation combined with the marketing strategy is beneficial for business purpose.
-- Predicting which countries are more popular in the users is beneficial for demand forecasting.
-- Airbnb can build a recommendation system based on these prediction. Suggesting the destinations which are similar to the user’s choice (in terms of climate, nature, and things-to-do)  
+- Predicting whether or not a user will book a reservation combined with the marketing strategy is beneficial for business purposes.
+- Predicting which countries are more popular for accommodation booking is beneficial for demand forecasting.
+- Airbnb can build a recommendation system based on these predictions. Suggesting the destinations which are similar to the user’s choice (in terms of climate, nature, and things-to-do)
 
