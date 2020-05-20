@@ -37,7 +37,7 @@
 - Signup method is dominated by 'basic' and 'facebook'.
 - About 45% of the users did not reveal their gender.
 
-### Question 1: Is a new Airbnb user book any reservation?
+### Question 1: Does a new Airbnb user book any reservation?
 - To answer this, I considered 'NDF as one class and the rest as another class which make the problem of binary classification type. 
 - 7 machine learning algorithm were modeled (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, Ada Boosting, XGBoosting, and multi-layer Perceptron.
 - Based on AUC curve, XGBoosting and Gradient Boosting have highest performances.
