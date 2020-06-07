@@ -1,5 +1,5 @@
 # Airbnb New User Booking Prediction
-## Helnaz Soltani
+## by Helnaz Soltani
 ### May 15th, 2020
 
 ![image](https://media-assets-04.thedrum.com/cache/images/thedrum-prod/s3-news-tmp-111981-airbnb--2x1--940.png)
